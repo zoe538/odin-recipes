@@ -1,19 +1,12 @@
 body {
-    background-color: rgb(253, 247, 238);
+    background-color: rgb(243, 239, 252);
     font-family: sans-serif;
     padding: 20px;
 }
 
 a {
-    color: black;
+    color: #4851d1;
     text-decoration: none;
-}
-
-h1 {
-    text-transform: uppercase;
-    text-align: center;
-    padding: 5px;
-    border: 2px solid black;
 }
 
 li {
@@ -22,4 +15,34 @@ li {
 img {
     display: block;
     margin: auto;
+}
+
+.list {
+    list-style-position: inside;
+    text-align: center;
+}
+
+.index-list {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #4851d1
+}
+
+.link-style {
+    color: black
+}
+
+.border {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    display: inline-block;
+}
+
+.heading-container{
+    text-align: center;
+}
+
+.list-heading {
+    text-align: center;
 }
